@@ -9,5 +9,3 @@ function Home() {
 }
 
 export default Home;
-
-/* appeler les composants ici */ 
