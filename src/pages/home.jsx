@@ -1,9 +1,10 @@
 import React from 'react';
+import Header from '../components/header';
 
 function Home() {
   return (
     <main className="timeline">
-      <h1>the Timeline is here</h1>
+      <Header />
     </main>
   );
 }
