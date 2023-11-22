@@ -1,5 +1,5 @@
 import React from 'react';
-import topTweetsImg from '../images/top-tweets.svg';
+import topTweetsImg from '../../images/top-tweets.svg';
 
 function Header() {
   return (
