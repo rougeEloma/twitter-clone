@@ -4,7 +4,7 @@ import roundTwitterLogo from "../images/round-twitter-logo.svg";
 import newYorkTimeLogo from "../images/logoNewYorkTime.svg";
 
 
-const tweetsData = [
+const datasOfEachTweets = [
   {
     name: "CNN",
     content:
@@ -61,4 +61,4 @@ const tweetsData = [
     profileUser: roundTwitterLogo,
   },
 ];
-export default tweetsData;
+export default datasOfEachTweets;
