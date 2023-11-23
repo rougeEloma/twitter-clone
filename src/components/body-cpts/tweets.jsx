@@ -7,7 +7,15 @@ import verified from "../../images/verified.svg";
 function Tweets() {
     return (
         <div className='tweets'>
-            <TweetActions />
+            {datasOfEachTweets.map((copyDatasOfEachTweets, index) => {
+                return (
+                    <div className="tweet" key={index}>
+
+                    </div>
+                )
+            })
+
+            }
         </div>
     )
 }
