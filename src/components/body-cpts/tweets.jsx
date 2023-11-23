@@ -15,11 +15,12 @@ function Tweets() {
                             <div className="tweet-body">
                                 <div className="tweet-title">
                                     <span className="tweet-title-author">
-                                        {copyDatasOfEachTweets.author}
+                                        {copyDatasOfEachTweets.name}
                                         <PiSealCheckFill />
                                     </span>
-                                    <span className="tweet-title-details">{copyDatasOfEachTweets.sent}
-                                    </span>
+                                    <span className="tweet-title-details">{copyDatasOfEachTweets.author}</span>
+                                    <span className="tweet-title-details">{"."}</span>
+                                    <span className="tweet-title-details">{copyDatasOfEachTweets.sent}</span>
                                 </div>
                                 <p className="tweet-text">
                                     {copyDatasOfEachTweets.content}
