@@ -1,7 +1,7 @@
 import secondTweetImage from "../images/second-tweet-image.png";
-import CnnLogo from "../images/second-tweet-image.png";
-import roundTwitterLogo from "../images/second-tweet-image.png";
-import newYorkTimeLogo from "../images/second-tweet-image.png";
+import CnnLogo from "../images/cnn-logo.svg";
+import roundTwitterLogo from "../images/round-twitter-logo.svg";
+import newYorkTimeLogo from "../images/the_new_york.svg";
 
 
 const datasOfEachTweets = [
@@ -9,7 +9,6 @@ const datasOfEachTweets = [
     name: "CNN",
     content:
       'President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a "major breakthrough" that would serve to both strengthen the US steel industry and combat the global climate crisis.',
-    contentImage: "",
     replies: 57,
     retweets: 144,
     likes: 184,
@@ -32,7 +31,6 @@ const datasOfEachTweets = [
   {
     name: "Twitter",
     content: "BIG NEWS lol jk still Twitter",
-    contentImage: "",
     replies: "6.8K",
     retweets: "36.6K",
     likes: "267.1K",
@@ -43,7 +41,6 @@ const datasOfEachTweets = [
   {
     name: "Twitter",
     content: "Hello literally everyone",
-    contentImage: "",
     replies: "18.7K",
     retweets: "785.4K",
     likes: "3.3M",

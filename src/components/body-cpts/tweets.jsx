@@ -15,21 +15,24 @@ function Tweets() {
                             <div className="tweet-body">
                                 <div className="tweet-title">
                                     <span className="tweet-title-author">
-                                        {copyDatasOfEachTweets.author} <span><PiSealCheckFill /></span>
+                                        {copyDatasOfEachTweets.author}
+                                        <PiSealCheckFill />
                                     </span>
-                                    <span className="tweet-title-details">{copyDatasOfEachTweets.sent}</span>
+                                    <span className="tweet-title-details">{copyDatasOfEachTweets.sent}
+                                    </span>
                                 </div>
-                                <div className="tweet-text">
+                                <p className="tweet-text">
                                     {copyDatasOfEachTweets.content}
-                                </div>
+                                </p>
                                 <div className="tweet-image">
-                                    {copyDatasOfEachTweets.contentImage}
+                                    
+                                {copyDatasOfEachTweets.contentImage && <img  src={copyDatasOfEachTweets.contentImage} /> }
                                 </div>
                             </div>
-                            <TweetActions 
+                            <TweetActions
                                 replies={copyDatasOfEachTweets.replies}
                                 retweets={copyDatasOfEachTweets.retweets}
-                                likes={copyDatasOfEachTweets.likes}/>
+                                likes={copyDatasOfEachTweets.likes} />
                         </div>
                     </div>
                 )
