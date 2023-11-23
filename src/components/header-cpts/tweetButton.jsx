@@ -2,11 +2,11 @@ import React from "react";
 
 function TweetButton () {
     return (
-      <div>
-        <button className="tweet-button">
+    
+        <button className="button">
             Tweet
         </button>
-      </div>
+     
     );
 }
 

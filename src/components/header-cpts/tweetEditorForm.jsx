@@ -2,11 +2,12 @@ import React from 'react';
 import TweetEditorInput from './tweetEditorInput';
 import TweetEditorButtons from './tweetEditorButtons';
 
+
 function TweetEditorForm() {
   return (
     <div className="tweet-editor-form">
         <TweetEditorInput />
-        <TweetEditorButtons />
+        <TweetEditorButtons/>
     </div>
   );
 }
