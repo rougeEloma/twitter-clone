@@ -7,19 +7,19 @@ import Share from "../../images/share.svg";
 function TweetActions ({replies, retweets, likes}) {
     return (
         <div className="tweet-actions">
-            <div className="tweet-actions">
+            <div className="tweet-action">
                 <img src={Reply} alt="" />
                 {replies}
             </div>
-            <div className="tweet-actions">
+            <div className="tweet-action">
                 <img src={Retweet} alt="" />
                 {retweets}
             </div>
-            <div className="tweet-actions">
+            <div className="tweet-action">
                 <img src={Like} alt="" />
                 {likes}
             </div>
-            <div className="tweet-actions">
+            <div className="tweet-action">
                 <img src={Share} alt="" />
             </div>
         </div>
