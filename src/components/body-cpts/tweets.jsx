@@ -1,7 +1,7 @@
 import React from "react";
 import TweetActions from "./tweetActions";
 import datasOfEachTweets from "../tweetDatas";
-import Verified from "../../images/verified.svg";
+import { PiSealCheckFill } from "react-icons/pi";
 
 
 function Tweets() {
@@ -14,10 +14,10 @@ function Tweets() {
                         <div className="tweet-content">
                             <div className="tweet-body">
                                 <div className="tweet-title">
-                                    <div className="tweet-title-author">
-                                        {copyDatasOfEachTweets.author} <Verified />
-                                    </div>
-                                    <div className="tweet-title-details">{copyDatasOfEachTweets.sent}</div>
+                                    <span className="tweet-title-author">
+                                        {copyDatasOfEachTweets.author} <span><PiSealCheckFill /></span>
+                                    </span>
+                                    <span className="tweet-title-details">{copyDatasOfEachTweets.sent}</span>
                                 </div>
                                 <div className="tweet-text">
                                     {copyDatasOfEachTweets.content}
@@ -34,7 +34,6 @@ function Tweets() {
                     </div>
                 )
             })
-
             }
         </div>
     )
