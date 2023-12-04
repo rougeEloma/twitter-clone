@@ -6,7 +6,7 @@ function TweetEditorButtons () {
     return (
     <div className="tweet-editor-buttons">
       <TweetEditorActions/>
-      <TweetButton/>
+      <TweetButton val="Tweet"/>
      
     </div>
     )

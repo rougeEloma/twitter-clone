@@ -1,10 +1,10 @@
 import React from "react";
 
-function TweetButton () {
+function TweetButton ({ val }) {
     return (
     
         <button className="button">
-            Tweet
+            {val}
         </button>
      
     );

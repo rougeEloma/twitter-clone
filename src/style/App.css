@@ -15,10 +15,19 @@ body{
 }
 
 .timeline {
-    flex: 0 0 800px;
+    flex: 0 0 50%;
     font-family: 'Inter', sans-serif;
     border-left: 1px solid #2F3336;
     border-right: 1px solid #2F3336;
+}
+
+.sidebar, .trends {
+    flex: 0 0 20%;
+    font-family: 'Inter', sans-serif;
+    padding-left: 20px;
+}
+.sidebar .button {
+    margin: 10px;
 }
 
 .header {
