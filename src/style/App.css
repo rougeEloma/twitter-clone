@@ -202,18 +202,14 @@ body{
 /* sidebar _____________________________________________________ */
 
 .sidebar, .trends {
-    flex: 0 0 20%;
+    max-width: 300px;
     font-family: 'Inter', sans-serif;
-    padding-left: 20px;
-    justify-content: center;
-}
-.sidebar .button {
     margin: 10px;
 }
 
 .side-tweet-button {
     text-transform: capitalize;
-    padding: .7rem 4rem;
+    padding: .7rem 4.5rem;
     border: none;
     border-radius: 50px;
     background-color: #1D9BF0;
@@ -221,9 +217,19 @@ body{
     font-size: 1rem;
 }
 
-.side-menu-list li {
+.sidebar ul {
     list-style-type: none;
-    margin: 2rem;
     font-size: 15px;
-    font-weight: 500;
+    cursor: pointer;
+    padding: 20px 0 20px 0;
 }
+
+.sidebar li {
+    padding: 10px 0 10px 0;
+    font-weight: 600;
+}
+
+/* trends _____________________________________________________ */
+
+/* trends _____________________________________________________ */
+

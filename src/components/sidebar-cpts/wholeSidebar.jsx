@@ -1,11 +1,10 @@
-import React from 'react';
-import twitterLogo from '../../images/twitter_logo.png';
+import roundTwitterLogo from "../../images/round-twitter-logo.svg"
 
-function MenuList () {
+function Sidebar () {
     return (
         <>
-        <ul className='side-menu-list'>
-          <img src={twitterLogo} alt="" className='top-tweets'/>
+        <img src={roundTwitterLogo} alt="" className='tweet-avatar'/>
+        <ul>
           <li>Acceuil</li>
           <li>Explorer</li>
           <li>Notifications</li>
@@ -15,8 +14,9 @@ function MenuList () {
           <li><a>Profile</a></li>
           <li>More</li>
         </ul>
+        <button className='side-tweet-button'>Tweet</button>
         </>
     )
 }
 
-export default MenuList;
+export default Sidebar;
