@@ -1,4 +1,3 @@
-import React from "react";
 import TweetActions from "./tweetActions";
 import datasOfEachTweets from "../tweetDatas";
 import { PiSealCheckFill } from "react-icons/pi";

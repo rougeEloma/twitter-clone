@@ -1,4 +1,5 @@
 import roundTwitterLogo from "../../images/round-twitter-logo.svg"
+import littleTwitter from "../../images/Twitter.svg"
 // import avatarImg from "../../images/profile-photo.png"
 import dotsMenu from "../../images/dotsMenu.svg"
 import homeImg from "../../images/Home-Fill.svg";
@@ -15,7 +16,7 @@ function Sidebar () {
         <div className="positioning">
 
           {/* side-twitter-logo component */}
-          <img src={roundTwitterLogo} alt="" className='tweet-avatar'/>
+          <img src={littleTwitter} alt="" className='tweet-avatar'/>
           <ul>
             <li><img src={homeImg} alt=""/> <span>Acceuil</span></li>
             <li><img src={exploreImg} alt=""/> <span>Explorer</span></li>
