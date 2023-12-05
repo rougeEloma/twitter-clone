@@ -104,6 +104,10 @@ body{
     color: white;
     font-size: 1rem;
 }
+.button:hover{
+    background-color: #1D9BF080;
+    cursor: pointer;
+}
 
 .tweet{
     display: flex;
@@ -201,8 +205,12 @@ body{
 
 /* sidebar _____________________________________________________ */
 
+.positioning {
+    position: fixed;
+}
+
 .sidebar, .trends {
-    max-width: 300px;
+    flex: 0 0 16%;
     font-family: 'Inter', sans-serif;
     margin: 10px;
 }
@@ -220,13 +228,41 @@ body{
 .sidebar ul {
     list-style-type: none;
     font-size: 15px;
-    cursor: pointer;
     padding: 20px 0 20px 0;
 }
 
 .sidebar li {
     padding: 10px 0 10px 0;
     font-weight: 600;
+}
+
+.side-user-info{
+    display:flex;
+    margin-top: 80px;
+    justify-content: space-evenly;
+    align-items:center;
+    padding: 7px 0;
+}
+
+.side-user-info .profile-picture {
+    flex: 0 0 40px;
+    /*padding: 0 rem;*/
+}
+
+.side-user-info .profile-picture img {
+    max-width: 100%;
+    max-height: 100px;
+    border-radius: 100%;
+}
+
+.more-info{
+    margin-left : 30px;
+}
+
+.side-user-info:hover {
+    background-color : #202327;
+    cursor: pointer;
+    border-radius: 50px;
 }
 
 /* trends _____________________________________________________ */
