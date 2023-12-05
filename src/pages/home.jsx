@@ -4,6 +4,7 @@ import TweetEditor from '../components/header-cpts/tweetEditor';
 import Tweets from '../components/body-cpts/tweets';
 import TweetButton from '../components/header-cpts/tweetButton';
 import Sidebar from '../components/sidebar-cpts/wholeSidebar';
+import Trends from '../components/trends-cpts/wholeTrends';
 
 function Home() {
   return (
@@ -18,9 +19,7 @@ function Home() {
     </main>
     
     <section className="trends">
-      <div>searchbar</div>
-      <div>Trends for you</div>
-      <div>Who to follow</div>
+      <Trends />
     </section>
     </>
   );

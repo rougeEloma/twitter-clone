@@ -1,6 +1,14 @@
 import roundTwitterLogo from "../../images/round-twitter-logo.svg"
-import avatarImg from "../../images/profile-photo.png"
+// import avatarImg from "../../images/profile-photo.png"
 import dotsMenu from "../../images/dotsMenu.svg"
+import homeImg from "../../images/Home-Fill.svg";
+import exploreImg from "../../images/Explore.svg";
+import notifImg from "../../images/Notifications.svg";
+import messagesImg from "../../images/Messages.svg";
+import bookmarksImg from "../../images/Bookmarks.svg";
+import listImg from "../../images/Lists.svg";
+import profileImg from "../../images/Profile.svg";
+import moreImg from "../../images/More.svg";
 
 function Sidebar () {
     return (
@@ -9,14 +17,14 @@ function Sidebar () {
           {/* side-twitter-logo component */}
           <img src={roundTwitterLogo} alt="" className='tweet-avatar'/>
           <ul>
-            <li>Acceuil</li>
-            <li>Explorer</li>
-            <li>Notifications</li>
-            <li>Messages</li>
-            <li>Bookmarks</li>
-            <li>Lists</li>
-            <li><a>Profile</a></li>
-            <li>More</li>
+            <li><img src={homeImg} alt=""/> <span>Acceuil</span></li>
+            <li><img src={exploreImg} alt=""/> <span>Explorer</span></li>
+            <li><img src={notifImg} alt=""/> <span>Notifications</span></li>
+            <li><img src={messagesImg} alt=""/> <span>Messages</span></li>
+            <li><img src={bookmarksImg} alt=""/> <span>Bookmarks</span></li>
+            <li><img src={listImg} alt=""/> <span>Lists</span></li>
+            <li><img src={profileImg} alt=""/> <span>Profile</span></li>
+            <li><img src={moreImg} alt=""/> <span>More</span></li>
           </ul>
 
           {/* side-Tweet-button component */}
@@ -25,7 +33,7 @@ function Sidebar () {
           {/* side-user-infos component */}
           <div className="side-user-info">
             <div className="profile-picture">
-                <img src={avatarImg} alt="" />
+                <img src={roundTwitterLogo} alt="" />
             </div>
             <div className="user-ids">
                 <h2 className="tweet-title-author">The X</h2>
