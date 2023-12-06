@@ -8,19 +8,19 @@ function TweetActions ({replies, retweets, likes}) {
     return (
         <div className="tweet-actions">
             <div className="tweet-action">
-                <img src={Reply} alt="" />
+                <img src={Reply} alt="" className="reply"/>
                 {replies}
             </div>
             <div className="tweet-action">
-                <img src={Retweet} alt="" />
+                <img src={Retweet} alt="" className="retweet"/>
                 {retweets}
             </div>
             <div className="tweet-action">
-                <img src={Like} alt="" />
+                <img src={Like} alt="" className="like"/>
                 {likes}
             </div>
             <div className="tweet-action">
-                <img src={Share} alt="" />
+                <img src={Share} alt=""/>
             </div>
         </div>
     )

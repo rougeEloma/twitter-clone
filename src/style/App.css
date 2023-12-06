@@ -355,3 +355,19 @@ body{
     padding-right: 10px;
     margin-top: 8px;
 }
+
+
+.tweet-actions .reply:hover {
+    filter: invert(61%) sepia(42%) saturate(5478%) hue-rotate(185deg) brightness(99%) contrast(98%);
+    transition: 0.5s;
+}
+
+.tweet-actions .retweet:hover {
+    filter: invert(97%) sepia(52%) saturate(2839%) hue-rotate(63deg) brightness(110%) contrast(96%);
+    transition: 0.5s;
+}
+
+.tweet-actions .like:hover {
+    filter: invert(28%) sepia(93%) saturate(4177%) hue-rotate(339deg) brightness(116%) contrast(96%);
+    transition: 0.5s;
+}
