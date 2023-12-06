@@ -8,7 +8,7 @@ const datasOfEachTweets = [
   {
     name: "CNN",
     content:
-      'President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a "major breakthrough" that would serve to both strengthen the US steel industry and combat the global climate crisis.',
+      'President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel a "major breakthrough" that would serve to both strengthen the US steel industry and combat the global climate crisis. ',
     replies: 57,
     retweets: 144,
     likes: 184,
@@ -33,7 +33,7 @@ const datasOfEachTweets = [
     content: "BIG NEWS lol jk still Twitter",
     replies: 68,
     retweets: 366,
-    likes: 2671,
+    likes: 267,
     sent: "Oct 20",
     author: "@Twitter",
     profileImage: roundTwitterLogo,
@@ -43,7 +43,7 @@ const datasOfEachTweets = [
     content: "Hello literally everyone",
     replies: 187,
     retweets: 7854,
-    likes: 330,
+    likes: 33,
     sent: "Oct 15",
     author: "@Twitter",
     profileImage: roundTwitterLogo,
