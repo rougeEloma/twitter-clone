@@ -11,9 +11,11 @@ import listImg from "../../images/Lists.svg";
 import profileImg from "../../images/Profile.svg";
 import moreImg from "../../images/More.svg";
 
+import privateImg from "../../images/Private.svg"
+
 function Sidebar () {
     return (
-        <div className="positioning">
+        <div className="inner-sidebar">
 
           {/* side-twitter-logo component */}
           <img src={littleTwitter} alt="" className='tweet-avatar'/>
@@ -37,7 +39,7 @@ function Sidebar () {
                 <img src={roundTwitterLogo} alt="" />
             </div>
             <div className="user-ids">
-                <h2 className="tweet-title-author">The X</h2>
+                <h2 className="tweet-title-author">The X <img src={privateImg} alt="" /></h2>
                 <p className="tweet-title-details">@ElonMusk</p>
             </div>
             <div className="more-info">

@@ -206,12 +206,12 @@ body{
 
 /* sidebar _____________________________________________________ */
 
-.positioning {
+.inner-sidebar, .inner-trends {
     position: fixed;
 }
 
 .sidebar, .trends {
-    flex: 0 0 15%;
+    flex: 0 0 18%;
     font-family: 'Inter', sans-serif;
     margin: 10px;
 }
@@ -249,11 +249,11 @@ body{
     margin-top: 60px;
     justify-content: space-evenly;
     align-items:center;
-    padding: 7px 0;
+    padding: 7px 7px;
 }
 
 .side-user-info .profile-picture {
-    flex: 0 0 40px;
+    flex: 0 0 50px;
     /*padding: 0 rem;*/
 }
 
@@ -277,17 +277,72 @@ body{
 
 /* trends _____________________________________________________ */
 
-.searchbar, .trends-for-you, .who-to-follow {
-    background: grey;
-    width: 90%;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 20px;
 
+.searchbar, .trends-for-you, .who-to-follow {
+    background: #202327;
+    width: 100%;
+    padding: 6px;
+    margin: 7px;
+    border-radius: 15px;
+}
+
+.searchbar img {
+    width: 14px;
+    height: 14px;
+    filter: invert(48%) saturate(50%) brightness(50%) contrast(50%);
+}
+
+.searchbar input {
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.trends .dots-menu {
+    margin-left: 85px;
+}
+
+.show-more {
+    color: #1D9BF0;
+    font-size: 12px;
+    margin: 13px 0 8px 0;
+}
+
+.trends p {
+    font-size: 6px;
+}
+.trends h3 {
+    font-size: 12px;
+}
+
+.button-white {
+    text-transform: capitalize;
+    padding: .3rem 0.7rem;
+    border: none;
+    border-radius: 50px;
+    background-color: #ffffff;
+    color: #272727;
+    font-size: 0.6rem;
+}
+
+.little-grey {
+    font-size: 7px;
+    color: #727272;
 }
 
 .searchbar{
     display: flex;
+    justify-content: space-between;
+}
+
+.footer-text {
+    justify-content: center;
+    text-align: center;
+}
+.footer-text p {
+    color: #6E767D;
+    font-size: 8px;
+    font-weight: 500;
 }
 
 /* little detail for all _____________________________________________________ */
@@ -296,4 +351,7 @@ body{
 
 .flex-it {
     display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-top: 8px;
 }
