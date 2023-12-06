@@ -1,12 +1,23 @@
 import TweetActions from "./tweetActions";
 import datasOfEachTweets from "../tweetDatas";
 import { PiSealCheckFill } from "react-icons/pi";
+import {useState} from "react";
 
 
 function Tweets() {
+
     return (
         <div className='tweets'>
             {datasOfEachTweets.map((copyDatasOfEachTweets, index) => {
+
+                const [value, setValue] = useState(copyDatasOfEachTweets.likes);
+                const [btnColor, setBtnColor] = useState("like");
+
+                const incrementCounter = () => {    
+                    setValue(copyDatasOfEachTweets.likes+1)
+                    setBtnColor("changed")
+
+                }
                 return (
                     <div className="tweet" key={index}>
                         <img src={copyDatasOfEachTweets.profileImage} alt="" className="tweet-avatar" />
@@ -32,7 +43,9 @@ function Tweets() {
                             <TweetActions
                                 replies={copyDatasOfEachTweets.replies}
                                 retweets={copyDatasOfEachTweets.retweets}
-                                likes={copyDatasOfEachTweets.likes} />
+                                likes={value} 
+                                handleClick={incrementCounter}
+                                colorClassName={btnColor}/>
                         </div>
                     </div>
                 )

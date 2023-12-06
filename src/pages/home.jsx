@@ -10,12 +10,12 @@ function Home() {
   return (
     <>
     <section className="sidebar">
-      <Sidebar/>
+      <Sidebar />
     </section>
     <main className="timeline">
       <Header />
       <TweetEditor />
-      <Tweets/>
+      <Tweets />
     </main>
     
     <section className="trends">

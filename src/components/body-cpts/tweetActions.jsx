@@ -4,7 +4,7 @@ import Retweet from "../../images/retweet.svg";
 import Like from "../../images/like.svg";
 import Share from "../../images/share.svg";
 
-function TweetActions ({replies, retweets, likes}) {
+function TweetActions ({replies, retweets, likes, handleClick, colorClassName}) {
     return (
         <div className="tweet-actions">
             <div className="tweet-action">
@@ -16,7 +16,7 @@ function TweetActions ({replies, retweets, likes}) {
                 {retweets}
             </div>
             <div className="tweet-action">
-                <img src={Like} alt="" className="like"/>
+                <img src={Like} alt="" className={colorClassName} onClick={handleClick} />
                 {likes}
             </div>
             <div className="tweet-action">

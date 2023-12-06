@@ -371,3 +371,8 @@ body{
     filter: invert(28%) sepia(93%) saturate(4177%) hue-rotate(339deg) brightness(116%) contrast(96%);
     transition: 0.5s;
 }
+
+.changed {
+    filter: invert(28%) sepia(93%) saturate(4177%) hue-rotate(339deg) brightness(116%) contrast(96%);
+    fill: red;
+}
