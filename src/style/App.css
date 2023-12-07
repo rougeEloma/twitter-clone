@@ -15,11 +15,13 @@ body{
 }
 
 .timeline {
-    flex: 0 0 800px;
+    flex: 0 0 50%;
     font-family: 'Inter', sans-serif;
     border-left: 1px solid #2F3336;
     border-right: 1px solid #2F3336;
 }
+
+
 
 .header {
     padding: 1.5rem 1rem;
@@ -102,6 +104,11 @@ body{
     color: white;
     font-size: 1rem;
 }
+.button:hover{
+    background-color: #1D9BF080;
+    cursor: pointer;
+}
+
 .tweet{
     display: flex;
     justify-content: flex-start;
@@ -152,6 +159,7 @@ body{
 }
 .tweet-title-details{
     color: #6E767D;
+    margin-top: 4px;
 }
 .tweet-text{
     color: #D9D9D9;
@@ -192,4 +200,179 @@ body{
     align-items: center;
     justify-content: center;
     gap: 20px;
+}
+
+/* sidebar _____________________________________________________ */
+
+/* sidebar _____________________________________________________ */
+
+.inner-sidebar, .inner-trends {
+    position: fixed;
+}
+
+.sidebar, .trends {
+    flex: 0 0 18%;
+    font-family: 'Inter', sans-serif;
+    margin: 10px;
+}
+
+
+.side-tweet-button {
+    text-transform: capitalize;
+    padding: .7rem 4.5rem;
+    border: none;
+    border-radius: 50px;
+    background-color: #1D9BF0;
+    color: white;
+    font-size: 1rem;
+}
+.side-tweet-button:hover{
+    background-color: #1D9BF080;
+    cursor: pointer;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.sidebar li {
+    padding: 10px 0 10px 0;
+    font-weight: 500;
+}
+.sidebar li span {
+    height: 5px;
+}
+
+.side-user-info{
+    display:flex;
+    margin-top: 60px;
+    justify-content: space-evenly;
+    align-items:center;
+    padding: 7px 7px;
+}
+
+.side-user-info .profile-picture {
+    flex: 0 0 50px;
+    /*padding: 0 rem;*/
+}
+
+.side-user-info .profile-picture img {
+    max-width: 100%;
+    max-height: 100px;
+    border-radius: 100%;
+}
+
+.more-info{
+    margin-left : 30px;
+}
+
+.side-user-info:hover {
+    background-color : #202327;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+/* trends _____________________________________________________ */
+
+/* trends _____________________________________________________ */
+
+
+.searchbar, .trends-for-you, .who-to-follow {
+    background: #202327;
+    width: 100%;
+    padding: 6px;
+    margin: 7px;
+    border-radius: 15px;
+}
+
+.searchbar img {
+    width: 14px;
+    height: 14px;
+    filter: invert(48%) saturate(50%) brightness(50%) contrast(50%);
+}
+
+.searchbar input {
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.trends .dots-menu {
+    margin-left: 85px;
+}
+
+.show-more {
+    color: #1D9BF0;
+    font-size: 12px;
+    margin: 13px 0 8px 0;
+}
+
+.trends p {
+    font-size: 6px;
+}
+.trends h3 {
+    font-size: 12px;
+}
+
+.button-white {
+    text-transform: capitalize;
+    padding: .3rem 0.7rem;
+    border: none;
+    border-radius: 50px;
+    background-color: #ffffff;
+    color: #272727;
+    font-size: 0.6rem;
+}
+
+.little-grey {
+    font-size: 7px;
+    color: #727272;
+}
+
+.searchbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text {
+    justify-content: center;
+    text-align: center;
+}
+.footer-text p {
+    color: #6E767D;
+    font-size: 8px;
+    font-weight: 500;
+}
+
+/* little detail for all _____________________________________________________ */
+
+/* little detail for all _____________________________________________________ */
+
+.flex-it {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-top: 8px;
+}
+
+
+.tweet-actions .reply:hover {
+    filter: invert(61%) sepia(42%) saturate(5478%) hue-rotate(185deg) brightness(99%) contrast(98%);
+    transition: 0.5s;
+}
+
+.tweet-actions .retweet:hover {
+    filter: invert(97%) sepia(52%) saturate(2839%) hue-rotate(63deg) brightness(110%) contrast(96%);
+    transition: 0.5s;
+}
+
+.tweet-actions .like:hover {
+    filter: invert(28%) sepia(93%) saturate(4177%) hue-rotate(339deg) brightness(116%) contrast(96%);
+    transition: 0.5s;
+}
+
+.changed {
+    filter: invert(28%) sepia(93%) saturate(4177%) hue-rotate(339deg) brightness(116%) contrast(96%);
+  
 }
