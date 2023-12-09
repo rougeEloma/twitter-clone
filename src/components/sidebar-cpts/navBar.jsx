@@ -17,7 +17,7 @@ function Navigation({src, url, texte}) {
   )
 }
 
-function NavMenu() {
+function NavBar() {
     return (
       <nav>
           <ul className="sidebarOptions">        
@@ -51,4 +51,4 @@ function NavMenu() {
     )
   }
 
-  export default NavMenu;
+  export default NavBar;

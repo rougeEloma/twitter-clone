@@ -2,16 +2,19 @@ import roundTwitterLogo from "../../images/round-twitter-logo.svg"
 import littleTwitter from "../../images/Twitter.svg"
 // import avatarImg from "../../images/profile-photo.png"
 import dotsMenu from "../../images/dotsMenu.svg"
-import NavMenu from "./navBar";
+import NavBar from "./navBar";
 
 import privateImg from "../../images/Private.svg"
 
-function Sidebar () {
+import('../../style/reset.css');
+import('./style/side-bar.css');
+
+function SideBar () {
     return (
         <div className="inner-sidebar">
           <img src={littleTwitter} alt="" className='tweet-avatar'/>
 
-          <NavMenu />
+          <NavBar />
 
           <button className='side-tweet-button'>Tweet</button>
           
@@ -31,4 +34,4 @@ function Sidebar () {
     )
 }
 
-export default Sidebar;
+export default SideBar;

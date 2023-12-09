@@ -20,7 +20,7 @@ function TweetActions ({replies, retweets, likes, handleClick, colorClassName}) 
                 {likes}
             </div>
             <div className="tweet-action">
-                <img src={Share} alt=""/>
+                <img src={Share} alt="" className="share"/>
             </div>
         </div>
     )
