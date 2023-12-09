@@ -19,8 +19,8 @@ function Navigation({src, url, texte}) {
 
 function NavBar() {
     return (
-      <nav>
-          <ul className="sidebarOptions">        
+      <nav className="nav-bar-style">
+          <ul>        
               <li>
                   <Navigation texte={"Home"} src={homeImg} url={"/"} />
               </li>
