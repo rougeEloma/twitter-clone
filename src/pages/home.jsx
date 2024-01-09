@@ -8,18 +8,11 @@ import Trends from '../components/trends-cpts/wholeTrends';
 function Home() {
   return (
     <>
-    <section className="sidebar">
-      <SideBar />
-    </section>
     <main className="timeline">
       <Header />
       <TweetEditor />
       <Tweets />
     </main>
-    
-    <section className="trends">
-      <Trends />
-    </section>
     </>
   );
 }

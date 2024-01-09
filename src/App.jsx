@@ -1,27 +1,42 @@
 import Home from "./pages/home.jsx";
-import Layout from "./components/layout.jsx";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Profile from "./components/profiles-cpts/Profile.jsx";
+import Profile from "./pages/profile.jsx";
+import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
+import SideBar from "./components/sidebar-cpts/sideBar.jsx";
+import Trends from "./components/trends-cpts/wholeTrends.jsx";
 
 import('./style/reset.css');
 import('./style/App.css');
 
 export default function App() {
+
+  const Layout = () => {
+    return (
+      <div className="app">
+        <SideBar/>
+        <Outlet/>
+        <Trends/>
+      </div>
+    )
+  }
+
+  const router = createBrowserRouter( [
+    {
+      path: "/",
+      element: <Layout/>,
+      children: [
+        {
+          path:"/",
+          element:<Home/>
+        },
+        {
+          path:"/profile",
+          element:<Profile/>
+        }
+      ]
+    },
+  ]);
+
   return (
-    <Layout>
-      <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/explore" element={""} />
-            <Route path="/notifications" element={""} />
-            <Route path="/messages" element={""} />
-            <Route path="/bookmarks" element={""} />
-            <Route path="/lists" element={""} />
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/more" element={""} />
-          </Routes>
-      </BrowserRouter>
-      {/* <Home /> */}
-    </Layout>
+    <div><RouterProvider router={router}/></div>
   );
 }
