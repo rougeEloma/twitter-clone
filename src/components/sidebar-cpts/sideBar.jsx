@@ -7,7 +7,7 @@ import NavBar from "./navBar";
 import privateImg from "../../images/Private.svg"
 
 import('../../style/reset.css');
-import('./style/side-bar.css');
+import('./side-bar.css');
 
 function SideBar () {
     return (

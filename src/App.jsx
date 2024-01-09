@@ -2,7 +2,7 @@ import Home from "./pages/home.jsx";
 import Profile from "./pages/profile.jsx";
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import SideBar from "./components/sidebar-cpts/sideBar.jsx";
-import Trends from "./components/trends-cpts/wholeTrends.jsx";
+import Trends from "./components/trends-cpts/Trends.jsx";
 
 import('./style/reset.css');
 import('./style/App.css');

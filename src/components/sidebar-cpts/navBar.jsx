@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 import homeImg from "../../images/Home-Fill.svg";
 import exploreImg from "../../images/Explore.svg";
 import notifImg from "../../images/Notifications.svg";
@@ -7,6 +7,9 @@ import bookmarksImg from "../../images/Bookmarks.svg";
 import listImg from "../../images/Lists.svg";
 import profileImg from "../../images/Profile.svg";
 import moreImg from "../../images/More.svg";
+
+import('../../style/reset.css');
+import('./side-bar.css');
 
 // function Navigation({src, url, texte}) {
 //   return (

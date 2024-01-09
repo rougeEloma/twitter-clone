@@ -6,6 +6,8 @@ import roundTwitterLogo from "../../images/round-twitter-logo.svg";
 import newYorkTimeLogo from "../../images/the_new_york.svg";
 import settingsImg from "../../images/Settings.svg"
 
+import('./trends.css');
+
 
 // trends-for-you component
 const TfyBlock = () => {
