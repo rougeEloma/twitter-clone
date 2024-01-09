@@ -2,28 +2,6 @@
     margin: 5px 0 5px 0;
 }
 
-.navLink {
-    display: flex;
-    text-decoration: none;
-    color: #727272;
-}
-.navLink:hover {
-    color: white;
-}
-.navLink::after{
-    color: white;
-}
-
-.navLink p {
-    font-size: 15px;
-    font-weight: 500;
-    padding-left: 2px;
-}
-
-.navLink img {
-    width: 20px;
-    height: 20px;
-}
 
 
 

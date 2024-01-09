@@ -15,7 +15,8 @@ body{
 }
 
 .timeline, .profile {
-    flex: 0 0 50%;
+    width: 50%;
+    right: 50%;
     font-family: 'Inter', sans-serif;
     border-left: 1px solid #2F3336;
     border-right: 1px solid #2F3336;
@@ -23,9 +24,6 @@ body{
 
 .inner-sidebar, .inner-trends {
     position: fixed;
-}
-
-.sidebar, .trends {
     flex: 0 0 18%;
     font-family: 'Inter', sans-serif;
     margin: 10px;
