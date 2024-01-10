@@ -15,19 +15,21 @@ body{
 }
 
 .timeline, .profile {
-    width: 50%;
-    right: 50%;
+    width: 55%;
     font-family: 'Inter', sans-serif;
     border-left: 1px solid #2F3336;
     border-right: 1px solid #2F3336;
 }
-
-.inner-sidebar, .inner-trends {
-    position: fixed;
-    flex: 0 0 18%;
-    font-family: 'Inter', sans-serif;
-    margin: 10px;
+.app {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
+
+a {
+    text-decoration: none;
+}
+
 
 
 

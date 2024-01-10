@@ -4,14 +4,14 @@ import roundTwitterLogo from "../images/round-twitter-logo.svg";
 import newYorkTimeLogo from "../images/the_new_york.svg";
 
 
-const datasOfEachTweets = [
+const EachProfile = [
   {
     name: "CNN",
-    content:
-      'President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel a "major breakthrough" that would serve to both strengthen the US steel industry and combat the global climate crisis. ',
-    replies: 57,
-    retweets: 144,
-    likes: 184,
+    username: "@cnn",
+    bio:
+      'the news channel',
+    adress: "USA",
+    link: "cnn.com",
     sent: "7ms",
     author: "@CNN",
     profileImage: CnnLogo,
@@ -62,4 +62,4 @@ const datasOfEachTweets = [
   },
 ];
 
-export default datasOfEachTweets;
+export default EachProfile;

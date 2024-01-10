@@ -3,7 +3,7 @@ import ProfileHeader from '../components/profiles-cpts/ProfileHeader';
 function Profile() {
     return (
       <>
-      <main className="timeline">
+      <main className="profile">
         <ProfileHeader />
       </main>
       </>

@@ -24,14 +24,14 @@ function NavBar() {
     return (
       <nav className="nav-bar-style">
           <ul>        
-              <Link to="/"><img src={homeImg} /><li>Home</li></Link>
-              <Link to="/"><img src={exploreImg} /><li>Explore</li></Link>
-              <Link to="/"><img src={notifImg} /><li>Notifications</li></Link>
-              <Link to="/"><img src={messagesImg} /><li>Messages</li></Link>
-              <Link to="/"><img src={bookmarksImg} /><li>Bookmarks</li></Link>
-              <Link to="/"><img src={listImg} /><li>Lists</li></Link>
-              <Link to="/profile"><img src={profileImg} /><li>Profile</li></Link>
-              <Link to="/"><img src={moreImg} /><li>More</li></Link>
+              <Link to="/"><li><img src={homeImg} />Home</li></Link>
+              <Link to="/"><li><img src={exploreImg} />Explore</li></Link>
+              <Link to="/"><li><img src={notifImg} />Notifications</li></Link>
+              <Link to="/"><li><img src={messagesImg} />Messages</li></Link>
+              <Link to="/"><li><img src={bookmarksImg} />Bookmarks</li></Link>
+              <Link to="/"><li><img src={listImg} />Lists</li></Link>
+              <Link to="/profile"><li><img src={profileImg} />Profile</li></Link>
+              <Link to="/"><li><img src={moreImg} />More</li></Link>
           </ul>
       </nav>
     )

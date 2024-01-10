@@ -48,6 +48,7 @@ function Trends() {
                 <TfyBlock />
                 <TfyBlock />
                 <TfyBlock />
+                <TfyBlock />
                 <h4 className="show-more">show more</h4>
             </div>
 
