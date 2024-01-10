@@ -8,34 +8,40 @@ const EachProfile = [
   {
     name: "CNN",
     username: "@cnn",
+    headerPhoto: "",
     bio:
       'the news channel',
     adress: "USA",
     link: "cnn.com",
-    sent: "7ms",
-    author: "@CNN",
+    joined: "Joined February 2007",
+    following: "1,085",
+    followers: "62,1M",
     profileImage: CnnLogo,
   },
   {
     name: "New York Times",
-    content:
-      "Gardening boomed during the pandemic. Six Black writers share how it has helped them re-establish, and reimagine, a connection to cultivation and the land",
-    contentImage: secondTweetImage,
-    replies: 19,
-    retweets: 48,
-    likes: 482,
-    sent: "Oct 29",
-    author: "@nytimes",
+    username: "@nyt",
+    headerPhoto: "",
+    bio:
+      'the newspapers',
+    adress: "USA",
+    link: "nytimes.com",
+    joined: "Joined March 2007",
+    following: "877",
+    followers: "55.1M",
     profileImage: newYorkTimeLogo,
   },
   {
     name: "Twitter",
-    content: "BIG NEWS lol jk still Twitter",
-    replies: 68,
-    retweets: 366,
-    likes: 267,
-    sent: "Oct 20",
-    author: "@Twitter",
+    username: "@x",
+    headerPhoto: "",
+    bio:
+      "what's happening?!",
+    adress: "everywhere",
+    link: "twitter.com",
+    joined: "Joined March 2006",
+    following: "0",
+    followers: "67.1M",
     profileImage: roundTwitterLogo,
   },
   {
@@ -47,19 +53,7 @@ const EachProfile = [
     sent: "Oct 15",
     author: "@Twitter",
     profileImage: roundTwitterLogo,
-  },
-  {
-    name: "Twitter",
-    content:
-      "Hello literally everyone",
-      contentImage: secondTweetImage,
-    replies: 19,
-    retweets: 48,
-    likes: 482,
-    sent: "Oct 17",
-    author: "@Twitter",
-    profileImage: roundTwitterLogo,
-  },
+  }
 ];
 
 export default EachProfile;
