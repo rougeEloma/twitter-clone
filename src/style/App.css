@@ -36,8 +36,6 @@ li {
 }
 
 
-
-
 .header {
     padding: 1.5rem 1rem;
     display: flex;
@@ -242,32 +240,28 @@ li {
 
 .tweet-actions .reply:hover {
     filter: invert(61%) sepia(42%) saturate(5478%) hue-rotate(185deg) brightness(80%) contrast(76%);
-    transition: 0.5s;
 }
 
 .tweet-actions .retweet:hover {
     filter: invert(97%) sepia(52%) saturate(2839%) hue-rotate(63deg) brightness(80%) contrast(76%);
-    transition: 0.5s;
 }
 
 .tweet-actions .like:hover {
     filter: invert(28%) sepia(93%) saturate(4177%) hue-rotate(339deg) brightness(80%) contrast(76%);
-    transition: 0.5s;
 }
 
-.tweet-actions .share:hover {
+/* .tweet-actions .share:hover {
   transition: 0.5s;
-}
+} */
 
 .changed {
     filter: invert(28%) sepia(93%) saturate(4177%) hue-rotate(339deg) brightness(80%) contrast(76%);
 }
 .changed:hover {
     filter: invert(28%) sepia(93%) saturate(4177%) hue-rotate(339deg) brightness(80%) contrast(76%);
-    transition: 0.5s;
 }
 
 .action-hover:hover {
   background-color: #2F3336;
-  border-radius: 50px;
+  border-radius: 40px;
 }

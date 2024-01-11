@@ -2,9 +2,9 @@ import React from 'react';
 
 function TweetEditorInput() {
   return (
-   
-      <input className="tweet-editor-input" type="text" placeholder="What's Happening ?" />
-      
+    <>
+      <textarea className="tweet-editor-input" type="text" placeholder="What's Happening ?" wrap="hard" cols="20" rows="5"/>
+    </>
    
   );
 }

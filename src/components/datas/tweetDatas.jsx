@@ -1,7 +1,7 @@
-import secondTweetImage from "../images/second-tweet-image.png";
-import CnnLogo from "../images/cnn-logo.svg";
-import roundTwitterLogo from "../images/round-twitter-logo.svg";
-import newYorkTimeLogo from "../images/the_new_york.svg";
+import secondTweetImage from "../../images/second-tweet-image.png";
+import CnnLogo from "../../images/cnn-logo.svg";
+import roundTwitterLogo from "../../images/round-twitter-logo.svg";
+import newYorkTimeLogo from "../../images/the_new_york.svg";
 
 
 const datasOfEachTweets = [
