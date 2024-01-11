@@ -1,7 +1,8 @@
 import TweetActions from "./tweetActions";
-import datasOfEachTweets from "../tweetDatas";
+import datasOfEachTweets from "../datas/tweetDatas";
 import { PiSealCheckFill } from "react-icons/pi";
 import {useState} from "react";
+import { Link } from "react-router-dom";
 
 
 function Tweets() {
@@ -20,7 +21,7 @@ function Tweets() {
                 }
                 return (
                     <div className="tweet" key={index}>
-                        <img src={copyDatasOfEachTweets.profileImage} alt="" className="tweet-avatar" />
+                        <Link to={copyDatasOfEachTweets.username}><img src={copyDatasOfEachTweets.profileImage} alt="" className="tweet-avatar" /></Link>
                         <div className="tweet-content">
                             <div className="tweet-body">
                                 <div className="tweet-title">

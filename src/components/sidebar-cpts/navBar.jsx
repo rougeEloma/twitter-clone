@@ -30,7 +30,7 @@ function NavBar() {
               <Link to="/"><li><img src={messagesImg} />Messages</li></Link>
               <Link to="/"><li><img src={bookmarksImg} />Bookmarks</li></Link>
               <Link to="/"><li><img src={listImg} />Lists</li></Link>
-              <Link to="/profile"><li><img src={profileImg} />Profile</li></Link>
+              <Link to="/johndoe"><li><img src={profileImg} />Profile</li></Link>
               <Link to="/"><li><img src={moreImg} />More</li></Link>
           </ul>
       </nav>

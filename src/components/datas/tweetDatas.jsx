@@ -7,6 +7,7 @@ import newYorkTimeLogo from "../images/the_new_york.svg";
 const datasOfEachTweets = [
   {
     name: "CNN",
+    username: "/cnn",
     content:
       'President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel a "major breakthrough" that would serve to both strengthen the US steel industry and combat the global climate crisis. ',
     replies: 57,
@@ -18,6 +19,7 @@ const datasOfEachTweets = [
   },
   {
     name: "New York Times",
+    username: "/nyt",
     content:
       "Gardening boomed during the pandemic. Six Black writers share how it has helped them re-establish, and reimagine, a connection to cultivation and the land",
     contentImage: secondTweetImage,
@@ -30,6 +32,7 @@ const datasOfEachTweets = [
   },
   {
     name: "Twitter",
+    username: "/twitter",
     content: "BIG NEWS lol jk still Twitter",
     replies: 68,
     retweets: 366,
@@ -40,6 +43,7 @@ const datasOfEachTweets = [
   },
   {
     name: "Twitter",
+    username: "/twitter",
     content: "Hello literally everyone",
     replies: 187,
     retweets: 7854,
@@ -50,6 +54,7 @@ const datasOfEachTweets = [
   },
   {
     name: "Twitter",
+    username: "/twitter",
     content:
       "Hello literally everyone",
       contentImage: secondTweetImage,

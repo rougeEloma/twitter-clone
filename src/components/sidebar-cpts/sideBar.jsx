@@ -5,6 +5,7 @@ import dotsMenu from "../../images/dotsMenu.svg"
 import NavBar from "./navBar";
 
 import privateImg from "../../images/Private.svg"
+import { Link } from "react-router-dom";
 
 import('../../style/reset.css');
 import('./side-bar.css');
@@ -12,7 +13,7 @@ import('./side-bar.css');
 function SideBar () {
     return (
         <div className="inner-sidebar">
-          <img src={littleTwitter} alt="" className='tweet-avatar'/>
+          <Link to="/"><img src={littleTwitter} alt="" className='tweet-avatar'/></Link>
 
           <NavBar />
 

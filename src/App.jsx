@@ -29,7 +29,7 @@ export default function App() {
           element:<Home/>
         },
         {
-          path:"/profile",
+          path:":username",
           element:<Profile/>
         }
       ]
