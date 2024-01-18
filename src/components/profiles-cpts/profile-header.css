@@ -1,94 +1,134 @@
-.profile{
+.author-profile {
     display: flex;
-    flex-direction: column;
-    padding: 20px;
-    gap: 20px;
-    border-bottom: 1px solid #2F3336;
+    justify-content: left;
+    align-items: center;
+    padding: .4rem 1rem;
+    cursor: pointer;
 }
 
-.profile-banner img{
-    object-fit: contain;
+.author-profile img {
+    width: 30px;
+    height: 30px;
 }
 
-.profile-photo-actions{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.author-name {
+    margin-left: 1.6rem;
 }
 
-.profile-actions{
-    display: flex;
-    justify-content: space-between;
-    gap:10px;
-}
-.profile-actions div:first-child{
-    margin-top: 5px;
-}
-
-.profile-infos{
-    display: flex;
-    flex-direction: column;
-    justify-content:space-evenly;
-    gap: 10px;
-}
-
-.usernames h1{
+.author-name .name {
     font-weight: bold;
-    font-size : 1rem;
-}
-.usernames p{
-    font-size : 0.7rem;
+    font-size: 1rem;
 }
 
-.profile-bio{
+.author-name .author-post-number {
+    font-size: .8rem;
+    margin-top: .5rem;
+    color: rgb(113, 118, 123);
+}
+
+.banner-profile {
+    height: 200px;
+    background: rgb(113, 118, 123);
+    position: relative;
+
+}
+
+.image-profile {
+    width: 130px;
+    height: 130px;
+    border-radius: 9999px;
+    margin-left: 1.3rem;
+    position: absolute;
+    top: 125px;
+}
+
+.image-profile img {
+    width: 100%;
+    border-radius: 9999px;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+.edit-profile {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.additional-infos{
+.edit-profile span {
+    border: 2px solid rgb(113, 118, 123);
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: .9rem;
+    padding: 10px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+.profile-informations {
+    margin: 1.4rem 1rem;
+}
+
+.profile-informations .info-name .name {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.profile-informations .info-name .tag {
+    font-size: .89rem;
+    margin-top: .3rem;
+    color: rgb(113, 118, 123);
+}
+
+.date-joined {
     display: flex;
-    flex-direction: row;
-    justify-content: left;
-    gap: 40px;
-    color:#6E767D;
-    
+    align-items: center;
+    margin-top: 1rem;
+    color: rgb(113, 118, 123);
+    font-size: .95rem;
 }
 
-.additional-infos div:first-child{
-    color : #1D9BF0;
+.date-joined .date {
+    margin-left: .3rem;
 }
 
-.followers{
+.section-follow-profile {
     display: flex;
-    flex-direction: row;
-    justify-content: left;
-    gap: 40px;
-    color:#6E767D;
+    font-size: .84rem;
+    margin-top: .9rem;
+    color: rgb(113, 118, 123);
 }
-.followers span{    
+
+.section-follow-profile span {
     color: white;
+    font-weight: bold;
 }
 
-.profile-nav{
-    margin-top: 30px
+.section-follow-profile .follower {
+    margin-left: 1rem;
 }
 
-.profile-nav ul{
-    list-style : none;
+.choice-section-profile {
+    color: rgb(113, 118, 123);
+    margin-top: 1.3rem;
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 2px solid rgb(113, 118, 123);
+
 }
 
-
-
-.profile-nav li p{
+.choice-section-profile div {
+    flex-grow: 1;
     text-align: center;
+    padding: 1.2rem 0;
+}
+.choice-section-profile div {
+    flex-grow: 1;
+    text-align: center;
+    padding: 1.2rem 0;
 }
 
-.profile-nav li div{
-    /* text-align: ; */
-    background-color: #1D9BF0;
-    height: 10%;
+.choice-section-profile div:hover {
+    background: rgba(113, 118, 123, 0.200);
 }
 
