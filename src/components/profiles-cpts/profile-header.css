@@ -65,6 +65,15 @@
     cursor: pointer;
 }
 
+.additional-infos {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    color: rgb(113, 118, 123);
+    font-size: .95rem;
+    gap: 15px;
+}
+
 .profile-informations {
     margin: 1.4rem 1rem;
 }
@@ -74,7 +83,7 @@
     font-size: 1.1rem;
 }
 
-.profile-informations .info-name .tag {
+.profile-informations .info-name .username {
     font-size: .89rem;
     margin-top: .3rem;
     color: rgb(113, 118, 123);
@@ -83,7 +92,6 @@
 .date-joined {
     display: flex;
     align-items: center;
-    margin-top: 1rem;
     color: rgb(113, 118, 123);
     font-size: .95rem;
 }

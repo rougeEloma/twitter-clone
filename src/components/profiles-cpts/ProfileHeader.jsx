@@ -35,7 +35,7 @@ function ProfileHeader({ profile }) {
       <div className="profile-informations">
         <div className="info-name">
           <div className="name">{singleProfile.name}</div>
-          <div className="username">{singleProfile.username}</div>
+          <div className="username">@{singleProfile.username}</div>
         </div>
         <div className="additional-infos">
           <div className="add-info">{singleProfile.adress}</div>
