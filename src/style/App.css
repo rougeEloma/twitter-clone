@@ -15,7 +15,7 @@ body{
 }
 
 .timeline, .profile {
-    width: 55%;
+    width: 700px;
     font-family: 'Inter', sans-serif;
     border-left: 1px solid #2F3336;
     border-right: 1px solid #2F3336;

@@ -1,15 +1,13 @@
+
 .author-profile {
     display: flex;
     justify-content: left;
     align-items: center;
     padding: .4rem 1rem;
     cursor: pointer;
+    width: 690px;
 }
 
-.author-profile img {
-    width: 30px;
-    height: 30px;
-}
 
 .author-name {
     margin-left: 1.6rem;
@@ -30,6 +28,7 @@
     height: 200px;
     background: rgb(113, 118, 123);
     position: relative;
+    width: 100%;
 
 }
 
@@ -40,6 +39,11 @@
     margin-left: 1.3rem;
     position: absolute;
     top: 125px;
+}
+
+.banner-profile img {
+    width: 100%;
+    background-size: contain;
 }
 
 .image-profile img {
@@ -105,6 +109,7 @@
     font-size: .84rem;
     margin-top: .9rem;
     color: rgb(113, 118, 123);
+    gap: 15px;
 }
 
 .section-follow-profile span {
@@ -112,9 +117,6 @@
     font-weight: bold;
 }
 
-.section-follow-profile .follower {
-    margin-left: 1rem;
-}
 
 .choice-section-profile {
     color: rgb(113, 118, 123);
@@ -122,7 +124,7 @@
     display: flex;
     align-items: center;
     border-bottom: 2px solid rgb(113, 118, 123);
-
+    width: 100%;
 }
 
 .choice-section-profile div {
