@@ -21,11 +21,9 @@ function ProfileHeader({ profile }) {
       </div>
 
       <div className="banner-profile">
-        <img src="" alt="" />
+        <img src={singleProfile.headerPhoto} alt="banner image" />
         <div className="image-profile">
-          <Link to="/home">
-            <img src={singleProfile.headerPhoto} />
-          </Link>
+            <img src={singleProfile.profileImage} alt="profile image" />
         </div>
       </div>
 
@@ -36,21 +34,25 @@ function ProfileHeader({ profile }) {
 
       <div className="profile-informations">
         <div className="info-name">
-          <div className="name">Christian mabeladi</div>
-          <div className="tag">@JusticeChrisM</div>
+          <div className="name">{singleProfile.name}</div>
+          <div className="username">{singleProfile.username}</div>
         </div>
-        <div className="date-joined">
-          <span>
-            <IoCalendarOutline />
-          </span>
-          <div className="date">Joined December 2023</div>
+        <div className="additional-infos">
+          <div className="add-info">{singleProfile.adress}</div>
+          <div className="add-info"><a href={singleProfile.reallink} target="_blank">{singleProfile.link}</a></div>
+          <div className="date-joined">
+            <span>
+              <IoCalendarOutline />
+            </span>
+            <div className="date">{singleProfile.joined}</div>
+          </div>
         </div>
         <div className="section-follow-profile">
           <div className="following">
-            <span>5</span>Following
+            <span>{singleProfile.following}</span> Following
           </div>
           <div className="follower">
-            <span>2</span>Follower
+            <span>{singleProfile.followers}</span> Followers
           </div>
         </div>
       </div>

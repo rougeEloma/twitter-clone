@@ -1,6 +1,6 @@
 import roundTwitterLogo from "../../images/round-twitter-logo.svg"
 import littleTwitter from "../../images/Twitter.svg"
-// import avatarImg from "../../images/profile-photo.png"
+import avatarImg from "../../images/profile-photo.png"
 import dotsMenu from "../../images/dotsMenu.svg"
 import NavBar from "./navBar";
 
@@ -21,11 +21,11 @@ function SideBar () {
           
           <div className="side-user-info">
             <div className="profile-picture">
-                <img src={roundTwitterLogo} alt="" />
+                <img src={avatarImg} alt="" />
             </div>
             <div className="user-ids">
-                <h2 className="tweet-title-author">The X <img src={privateImg} alt="" /></h2>
-                <p className="tweet-title-details">@ElonMusk</p>
+                <h2 className="tweet-title-author">John Doe <img src={privateImg} alt="" /></h2>
+                <p className="tweet-title-details">@johndoe</p>
             </div>
             <div className="more-info">
                 <img src={dotsMenu} alt="" />
