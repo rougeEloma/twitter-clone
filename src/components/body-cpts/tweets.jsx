@@ -11,14 +11,6 @@ function Tweets() {
         <div className='tweets'>
             {datasOfEachTweets.map((copyDatasOfEachTweets, index) => {
 
-                const [value, setValue] = useState(copyDatasOfEachTweets.likes);
-                const [btnColor, setBtnColor] = useState("like");
-
-                const incrementCounter = () => {    
-                    setValue(copyDatasOfEachTweets.likes+1)
-                    setBtnColor("changed")
-
-                }
                 return (
                     <div className="tweet" key={index}>
                         <Link to={copyDatasOfEachTweets.username}><img src={copyDatasOfEachTweets.profileImage} alt="" className="tweet-avatar" /></Link>
@@ -41,12 +33,6 @@ function Tweets() {
                                 {copyDatasOfEachTweets.contentImage && <img  src={copyDatasOfEachTweets.contentImage} /> }
                                 </div>
                             </div>
-                            <TweetActions
-                                replies={copyDatasOfEachTweets.replies}
-                                retweets={copyDatasOfEachTweets.retweets}
-                                likes={value} 
-                                handleClick={incrementCounter}
-                                colorClassName={btnColor}/>
                         </div>
                     </div>
                 )
