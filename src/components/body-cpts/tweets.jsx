@@ -33,6 +33,7 @@ function Tweets() {
                                 {copyDatasOfEachTweets.contentImage && <img  src={copyDatasOfEachTweets.contentImage} /> }
                                 </div>
                             </div>
+                            {/* <TweetActions here */}
                         </div>
                     </div>
                 )
