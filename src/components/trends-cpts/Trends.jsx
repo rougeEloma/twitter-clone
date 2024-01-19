@@ -56,8 +56,8 @@ function Trends() {
 
             <div className="who-to-follow">
                 <h3>Who To Follow</h3>
-                <WhoToFollowBlock image={newYorkTimeLogo} name="New York Time" at="@nyTimes" userlink={datasOfEachTweets[0].username}/>
-                <WhoToFollowBlock image={CnnLogo} name="CNN" at="@cnn" userlink={datasOfEachTweets[1].username}/>
+                <WhoToFollowBlock image={newYorkTimeLogo} name="New York Time" at="@nyTimes" userlink={datasOfEachTweets[1].username}/>
+                <WhoToFollowBlock image={CnnLogo} name="CNN" at="@cnn" userlink={datasOfEachTweets[0].username}/>
                 <WhoToFollowBlock image={roundTwitterLogo} name="Twitter" at="@Twitter" userlink={datasOfEachTweets[2].username}/>
                 <h4 className="show-more">show more</h4>
             </div>

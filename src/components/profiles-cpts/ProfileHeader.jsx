@@ -13,7 +13,7 @@ function ProfileHeader({ profile }) {
   return (
     <div className="profile-header">
       <div className="author-profile">
-        <Return linkValue='/home' />
+        <Return linkValue='/' />
         <div className="author-name">
           <div className="name">{singleProfile.name}</div>
           <div className="author-post-number">{singleProfile.posts} posts</div>
