@@ -2,7 +2,7 @@
     font-family: 'Inter', sans-serif;
     height: 100%;
     position: sticky;
-    top: -380px;
+    top: -340px;
     bottom: 0;
     width: 250px;
 }
@@ -73,4 +73,10 @@
     color: #6E767D;
     font-size: 8px;
     font-weight: 500;
+}
+
+.flex-it {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
