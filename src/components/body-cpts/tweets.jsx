@@ -1,7 +1,6 @@
 import TweetActions from "./tweetActions";
 import datasOfEachTweets from "../datas/tweetDatas";
 import { PiSealCheckFill } from "react-icons/pi";
-import {useState} from "react";
 import { Link } from "react-router-dom";
 
 
@@ -33,7 +32,7 @@ function Tweets() {
                                 {copyDatasOfEachTweets.contentImage && <img  src={copyDatasOfEachTweets.contentImage} /> }
                                 </div>
                             </div>
-                            {/* <TweetActions here */}
+                            <TweetActions/>
                         </div>
                     </div>
                 )
