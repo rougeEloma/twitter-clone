@@ -1,4 +1,3 @@
-import React from "react";
 import metaButtons from "../../images/meta-buttons.svg";
 
 function TweetEditorActions() {

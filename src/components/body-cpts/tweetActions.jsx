@@ -1,4 +1,3 @@
-import React from "react";
 import Reply from "../../images/reply.svg";
 import Retweet from "../../images/retweet.svg";
 import Like from "../../images/like.svg";

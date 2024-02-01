@@ -1,4 +1,3 @@
-import React from 'react';
 import topTweetsImg from '../../images/top-tweets.svg';
 import { Link } from 'react-router-dom';
 

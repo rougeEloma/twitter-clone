@@ -1,4 +1,3 @@
-import React from 'react';
 import TweetEditorActions from "./tweetEditorActions";
 import TweetButton from "./tweetButton";
 
